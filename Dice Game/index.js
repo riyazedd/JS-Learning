@@ -1,3 +1,5 @@
+function rollDice(){
+
 //FOR DICE 1
 
 let randomNumber1= Math.floor(Math.random()*6)+1; //generats random number from 1-6
@@ -22,9 +24,11 @@ document.querySelectorAll('img')[1].setAttribute('src',randomImageSource2);  //c
 //DECLARATION OF WINNER
 
 if(randomNumber1>randomNumber2){
-    document.querySelector('h1').innerHTML='&#128681Player 1 Wins!!';
+    document.querySelector('h1').innerHTML='🚩Player 1 Wins!!';
 }else if(randomNumber1<randomNumber2){
-    document.querySelector('h1').innerHTML='Player 2 Wins!!&#128681';
+    document.querySelector('h1').innerHTML='Player 2 Wins!!🚩';
 }else{
-    document.querySelector('h1').innerHTML='&#128681Draw!!&#128681';
+    document.querySelector('h1').innerHTML='🚩Draw!!🚩';
+}
+
 }
