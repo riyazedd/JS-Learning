@@ -41,3 +41,7 @@ button{
   font-family: 'Indie Flower', cursive;
   background-color: #393E46;
 }
+
+button:hover{
+  cursor: pointer;
+}
