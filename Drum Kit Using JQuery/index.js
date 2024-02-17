@@ -1,7 +1,6 @@
 //detecting button press
 $('button').click(function(){
     var button=$(this).text();
-    console.log(button);
     makeSound(button);
     animatePress(button);
 })
