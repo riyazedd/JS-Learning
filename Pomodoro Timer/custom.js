@@ -18,10 +18,10 @@ function startTimer() {
     }
     if (!isBreak) {
         // If it's not a break time, start work timer
-        timeInterval = setInterval(updateTimer, 10);
+        timeInterval = setInterval(updateTimer, 1000);
     } else {
         // If it's break time, start break timer
-        timeInterval = setInterval(breakTimer, 10);
+        timeInterval = setInterval(breakTimer, 1000);
     }
     audio.pause();
 }
